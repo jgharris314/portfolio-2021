@@ -5,13 +5,13 @@ import "./Header.css";
 
 export default function Header({ headerStyles }) {
   return (
-    <header className="Header">
+    <header className="Header" style={headerStyles ? headerStyles.background : null}>
       <div className="container">
         <div className="row">
           <div className="col textCol">
-            <h1 className="" style={{}}>Jacob Harris</h1>
-            <h2 className="" style={{}}>Web Developer</h2>
-            <h3 style={{}}>Denver, Colorado</h3>
+            <h1 className="" style={headerStyles ? headerStyles.h1 : null}>Jacob Harris</h1>
+            <h2 className="" style={headerStyles ? headerStyles.h2 : null}>Web Developer</h2>
+            <h3 style={headerStyles ? headerStyles.h3 : null}>Denver, Colorado</h3>
           </div>
         </div>
       </div>
