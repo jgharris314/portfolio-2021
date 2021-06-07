@@ -1,0 +1,12 @@
+.Navigation {
+    bottom: 0;
+    height: 50px;
+    position: fixed;
+    background-color: #282c34;
+    min-width: 100%;
+    color: orange;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+

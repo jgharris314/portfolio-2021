@@ -1,0 +1,36 @@
+.Header {
+    background-color: #282c34;
+    margin-top: 0px;
+    text-align: center;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.Header h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    color:green;
+    
+}
+
+.Header h2 {
+    margin-top:  0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: orange;
+}
+
+.Header h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 26px;
+    color: purple
+}
+
+.textCol {
+    margin: 15px;
+    
+}

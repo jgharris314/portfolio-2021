@@ -1,0 +1,21 @@
+.layoutDiv {
+ min-width: 100%;
+    
+}
+
+.headerDiv {
+     /* just in case  */
+     
+}
+
+.navDiv {
+  /* margin-top: 0px; */
+  min-width: 100%;
+}
+
+.bodyDiv {
+  /* margin-top: 170px; */
+  min-width: 100%;
+}
+
+

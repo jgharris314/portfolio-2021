@@ -1,0 +1,13 @@
+.portraitCol img {
+    height: 300px;
+    width: 200px;
+    border-radius: 15%;
+}
+
+.Body {
+    background-color: #282c34;;
+    height: 100%;
+    color: white;
+    min-width: 100%;
+    padding-top: 160px;
+}
