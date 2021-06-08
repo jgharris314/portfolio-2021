@@ -3,15 +3,15 @@ import './Body.css'
 import React from "react";
 // import { Link, useParams, useHistory, useRouteMatch } from "react-router-dom";
 
-export default function Body() {
+export default function Body({ bodyStyles }) {
   return (
-    <div className="container Body">
+    <div className="container Body" style={bodyStyles ? bodyStyles.background : null}>
       <div className="row">
         <div className="col portraitCol">
           <img src={portrait} alt="portrait of Jacob Harris"/>
         </div>
       </div>
-      <h3 id="about">About</h3>
+      <h3 id="about" style={bodyStyles ? bodyStyles.h3 : null}>About</h3>
       <div className="row">
         
           <div className="col">
@@ -21,7 +21,7 @@ export default function Body() {
           </div>
           
       </div>
-      <h3 id="projects">Projects</h3>
+      <h3 id="projects" style={bodyStyles ? bodyStyles.h3 : null}>Projects</h3>
       <div className="row">
       <div className="col">
           <p>
@@ -29,7 +29,7 @@ export default function Body() {
           </p>
           </div>
       </div>
-      <h3 id="contact">Contact</h3>
+      <h3 id="contact" style={bodyStyles ? bodyStyles.h3 : null}>Contact</h3>
       <div className="row">
       <div className="col">
           <p>
