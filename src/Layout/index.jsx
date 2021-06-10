@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Header from "../Header/Header";
 import Navigation from "../Navigation/Navigation";
 import Body from "../Body/Body";
-import ColorPicker from "../ColorPicker/ColorPicker";
 import "./index.css";
 export default function Layout() {
   const [styles, setStyles] = useState({
@@ -71,16 +70,10 @@ export default function Layout() {
     },
   };
 
+  const styleArray = [styleOne, styleTwo, styleThree, styleFour];
+
   const styleSwitchOnClick = (id) => {
-    if (id === 1) {
-      setStyles(styleOne);
-    } else if (id === 2) {
-      setStyles(styleTwo);
-    } else if (id === 3) {
-      setStyles(styleThree);
-    } else if (id === 4) {
-      setStyles(styleFour);
-    }
+    setStyles(styleArray[id])
   };
 
   return (
@@ -88,16 +81,16 @@ export default function Layout() {
       <div className="row headerDiv">
         <div className="row styleButtons">
           <div className="col col-3">
-            <button onClick={() => styleSwitchOnClick(1)}>Don't</button>
+            <button onClick={() => styleSwitchOnClick(0)}>Don't</button>
           </div>
           <div className="col col-3">
-            <button onClick={() => styleSwitchOnClick(2)}>Like</button>
+            <button onClick={() => styleSwitchOnClick(1)}>Like</button>
           </div>
           <div className="col col-3">
-            <button onClick={() => styleSwitchOnClick(3)}>The</button>
+            <button onClick={() => styleSwitchOnClick(2)}>The</button>
           </div>
           <div className="col col-3">
-            <button onClick={() => styleSwitchOnClick(4)}>Colors?</button>
+            <button onClick={() => styleSwitchOnClick(3)}>Colors?</button>
           </div>
         </div>
 

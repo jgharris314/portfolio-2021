@@ -6,12 +6,12 @@ import React from "react";
 export default function Body({ bodyStyles }) {
   return (
     <div className="container Body" style={bodyStyles ? bodyStyles.background : null}>
-      <div className="row">
-        <div className="col portraitCol">
-          <img src={portrait} alt="portrait of Jacob Harris"/>
+      <div className="row" >
+        <div className="col portraitCol" >
+          <img src={portrait} alt="portrait of Jacob Harris"/ >
         </div>
       </div>
-      <h3 id="about" style={bodyStyles ? bodyStyles.h3 : null}>About</h3>
+      <h3  id="about" style={bodyStyles ? bodyStyles.h3 : null}>About</h3>
       <div className="row">
         
           <div className="col">
