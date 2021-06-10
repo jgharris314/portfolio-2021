@@ -2,6 +2,7 @@
     height: 300px;
     width: 200px;
     border-radius: 15%;
+    margin-bottom: 15px;
 }
 
 .Body {
@@ -12,3 +13,22 @@
     padding-top: 220px;
     padding-bottom: 50px;
 }
+
+.content {
+    margin: 5%;
+    border: solid;
+    padding: 2%;
+    text-align: left;
+}
+
+.contentDiv h3 {
+    min-width: 100%;
+    text-align: center;
+}
+
+.contentDiv {
+    min-width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
