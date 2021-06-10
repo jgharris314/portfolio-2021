@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import Navigation from "../Navigation/Navigation";
 import Body from "../Body/Body";
 import "./index.css";
+
 export default function Layout() {
   const [styles, setStyles] = useState({
     header: {
@@ -72,15 +73,15 @@ export default function Layout() {
 
   const styleArray = [styleOne, styleTwo, styleThree, styleFour];
 
-  const styleSwitchOnClick = (id) => {
-    setStyles(styleArray[id])
+  const styleSwitchOnClick = (event)=> {
+    setStyles(styleArray[event.target.value])
   };
 
   return (
     <div className="container layoutDiv">
       <div className="row headerDiv">
-        <div className="row styleButtons">
-          <div className="col col-3">
+         <div className="row styleButtons">
+         {/* <div className="col col-3">
             <button onClick={() => styleSwitchOnClick(0)}>Don't</button>
           </div>
           <div className="col col-3">
@@ -91,7 +92,29 @@ export default function Layout() {
           </div>
           <div className="col col-3">
             <button onClick={() => styleSwitchOnClick(3)}>Colors?</button>
-          </div>
+          </div> */}
+       
+        <label> Don't like the colors?</label>
+        
+        <select
+          name="color_option"
+          id="color_option"
+          onChange={styleSwitchOnClick}
+        >
+         
+          {styleArray.map((x, index) => (
+            <option
+              key={index}
+              value={index}
+            >{`Style ${index + 1}`}</option>
+          ))}
+        </select>
+        
+        
+        {/* <button type="submit" className="btn btn-primary">Submit</button> */}
+        {/* <button onClick={handleCancel} className="btn btn-danger">Cancel</button> */}
+        
+     
         </div>
 
         <Header headerStyles={styles.header} />
