@@ -4,74 +4,12 @@ import Header from "../Header/Header";
 import Navigation from "../Navigation/Navigation";
 import Body from "../Body/Body";
 import "./index.css";
+import { StyleList, DefaultStyle } from "./Styles"; 
 
 export default function Layout() {
-  const [styles, setStyles] = useState({
-    header: {
-      h1: { color: "#baee4c" },
-      h2: { color: "#ce91d8" },
-      h3: { color: "#84428f" },
-      background: { "background-color": "#210624" },
-    },
-    body: {
-      background: { "background-color": "black", color: "red" },
-      h3: { color: "grey" },
-    },
-  });
+  const [styles, setStyles] = useState(DefaultStyle);
 
-  const styleOne = {
-    header: {
-      h1: { color: "#baee4c" },
-      h2: { color: "#ce91d8" },
-      h3: { color: "#84428f" },
-      background: { "background-color": "#210624" },
-    },
-    body: {
-      background: { "background-color": "black", color: "red" },
-      h3: { color: "grey" },
-    },
-  };
-
-  const styleTwo = {
-    header: {
-      h1: { color: "#87ceeb" },
-      h2: { color: "#5e1224" },
-      h3: { color: "#dcdcdb" },
-      background: { "background-color": "#eebbf5" },
-    },
-    body: {
-      background: { "background-color": "grey", color: "orange" },
-      h3: { color: "green" },
-    },
-  };
-
-  const styleThree = {
-    header: {
-      h1: { color: "#afb5fc" },
-      h2: { color: "#e76aa3" },
-      h3: { color: "#065535" },
-      background: { "background-color": "#f94552" },
-    },
-    body: {
-    background: { "background-color": "black", color: "green" },
-    h3: { color: "yellow" },
-    }
-  };
-
-  const styleFour = {
-    header: {
-      h1: { color: "#a020f0" },
-      h2: { color: "#bada55" },
-      h3: { color: "#cc99cc" },
-      background: { "background-color": "#008080" },
-    },
-    body: {
-      background: { "background-color": "purple", color: "green" },
-      h3: { color: "orange" },
-    },
-  };
-
-  const styleArray = [styleOne, styleTwo, styleThree, styleFour];
+  const styleArray = [...StyleList];
 
   const styleSwitchOnClick = (event)=> {
     setStyles(styleArray[event.target.value])
@@ -80,20 +18,7 @@ export default function Layout() {
   return (
     <div className="container layoutDiv">
       <div className="row headerDiv">
-         <div className="row styleButtons">
-         {/* <div className="col col-3">
-            <button onClick={() => styleSwitchOnClick(0)}>Don't</button>
-          </div>
-          <div className="col col-3">
-            <button onClick={() => styleSwitchOnClick(1)}>Like</button>
-          </div>
-          <div className="col col-3">
-            <button onClick={() => styleSwitchOnClick(2)}>The</button>
-          </div>
-          <div className="col col-3">
-            <button onClick={() => styleSwitchOnClick(3)}>Colors?</button>
-          </div> */}
-       
+         <div className="row styleOptions">
         <label> Don't like the colors?</label>
         
         <select
@@ -101,7 +26,6 @@ export default function Layout() {
           id="color_option"
           onChange={styleSwitchOnClick}
         >
-         
           {styleArray.map((x, index) => (
             <option
               key={index}
@@ -109,12 +33,6 @@ export default function Layout() {
             >{`Style ${index + 1}`}</option>
           ))}
         </select>
-        
-        
-        {/* <button type="submit" className="btn btn-primary">Submit</button> */}
-        {/* <button onClick={handleCancel} className="btn btn-danger">Cancel</button> */}
-        
-     
         </div>
 
         <Header headerStyles={styles.header} />
@@ -124,7 +42,7 @@ export default function Layout() {
         <Body bodyStyles={styles.body} />
       </div>
       <div className="row navDiv">
-        <Navigation />
+        <Navigation navigationStyles={styles.navigation} />
       </div>
     </div>
   );
