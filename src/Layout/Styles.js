@@ -83,7 +83,7 @@ export const StyleList = [{
       background: { "background-color": "#84428f", color: "#baee4c" },
       h3: { color: "#ce91d8" },
       content: {
-        "background-color":  "#bada55"
+        "background-color": "#ce91d8"
     }
     },
     navigation: {
