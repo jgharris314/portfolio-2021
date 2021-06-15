@@ -1,6 +1,6 @@
 .Header {
     background-color: #282c34;
-    margin-top: 0px;
+    top: 0;
     text-align: center;
     z-index: 999;
     position: fixed;
