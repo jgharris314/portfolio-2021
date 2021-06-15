@@ -7,9 +7,12 @@ export default function Body({ bodyStyles }) {
   return (
     <div className="container Body" style={bodyStyles ? bodyStyles.background : null}>
       <div className="row" >
-        <div className="col portraitCol square" style={bodyStyles ? bodyStyles.content : null}>
+        <div className="col col-3 portraitCol square" style={bodyStyles ? bodyStyles.content : null}>
           <img src={portrait} alt="portrait of Jacob Harris"/ >
-          <p>
+          
+        </div>
+        <div className="col col-9 aboutCol square" style={bodyStyles ? bodyStyles.content : null}>
+        <p>
                     I'm Jacob, a web developer located in Denver, Colorado!
                     
                      Before web development, I was a table-games dealer and supervisor in various casinos throughout KS and CO. The industry was fun and full of fast-paced action, but it just wasn't enough for me, I need something that challenges my mental capacity every day, and keeps me learning. This is why I chose web development. The casino industry has taught me how to work as an effective teammate in a fast-paced setting. 

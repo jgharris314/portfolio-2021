@@ -6,10 +6,10 @@ export const StyleList = [{
       background: { "background-color": "#210624" },
     },
     body: {
-      background: { "background-color": "#84428f", color: "#baee4c" },
-      h3: { color: "#ce91d8" },
+      background: { "background-color":"#ce91d8", color: "#baee4c" },
+      h3: { color: "#210624" },
       content: {
-        "background-color":  "#ce91d8"
+        "background-color":  "#84428f"
     }
     },
     navigation: {
@@ -36,26 +36,26 @@ export const StyleList = [{
   },
   {
     header: {
-      h1: { color: "#afb5fc" },
-      h2: { color: "#e76aa3" },
+      h1: { color: "#04495e" },
+      h2: { color: "#04495e" },
       h3: { color: "#065535" },
-      background: { "background-color": "#f94552" },
+      background: { "background-color": "#f2578c" },
     },
     body: {
-    background: { "background-color": "black", color: "green" },
-    h3: { color: "yellow" },
+    background: { "background-color": "#04495e", color: "#065535" },
+    h3: { color: "#f2578c" },
     content: {
         "background-color":  "#e76aa3"
     }
     },
     navigation: {
-        background: {"background-color": "#f94552", color: "#baee4c" }
+        background: {"background-color": "#f2578c", color: "#baee4c" }
     }
   },
   {
     header: {
-      h1: { color: "#a020f0" },
-      h2: { color: "#bada55" },
+      h1: { color: "purple" },
+      h2: { color: "orange" },
       h3: { color: "#cc99cc" },
       background: { "background-color": "#008080" },
     },
@@ -80,10 +80,10 @@ export const StyleList = [{
       background: { "background-color": "#210624" },
     },
     body: {
-      background: { "background-color": "#84428f", color: "#baee4c" },
-      h3: { color: "#ce91d8" },
+      background: { "background-color":"#ce91d8", color: "#baee4c" },
+      h3: { color: "#210624" },
       content: {
-        "background-color": "#ce91d8"
+        "background-color":  "#84428f"
     }
     },
     navigation: {

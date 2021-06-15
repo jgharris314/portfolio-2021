@@ -12,6 +12,17 @@
     border: solid;
     padding: 2%;
     margin: 5%;
+    min-width: 240px;
+}
+
+.aboutCol {
+    
+        padding-right: 0px;
+        text-align: justify;
+        border: solid;
+        padding: 2%;
+        margin: 5%;
+    
 }
 
 .Body {
