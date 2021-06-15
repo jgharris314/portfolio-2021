@@ -8,6 +8,8 @@ export default function Contact() {
                 <label>
                     Name:
                 </label>
+                <input>
+                </input>
             </form>
         </div>
     )

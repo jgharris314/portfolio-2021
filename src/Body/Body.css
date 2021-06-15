@@ -1,22 +1,27 @@
 .portraitCol img {
     height: 300px;
     width: 200px;
-    border-radius: 15%;
-    margin-right: 15px;
-    float: left;
+    /* border-radius: 15%; */
+    /* margin-right: 15px;
+    float: left; */
+   
 }
 
 .portraitCol {
-    padding-right: 0px;
-    text-align: justify;
+    text-align: center;
     border: solid;
     padding: 2%;
     margin: 5%;
-    min-width: 240px;
+    max-width: 300px;
+    min-width: 225px;
+    max-height: 380px;
+    align-content: center;
+    
+    
 }
 
-.aboutCol {
-    
+.introCol {
+        margin-top: 0px;
         padding-right: 0px;
         text-align: justify;
         border: solid;
@@ -32,6 +37,7 @@
     min-width: 100%;
     padding-top: 200px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .content {
@@ -53,6 +59,11 @@
     text-align: center;
     align-content: center;
     margin-top: 0px;
+}
+
+.introRow {
+    
+    justify-content: space-around;
 }
 
 

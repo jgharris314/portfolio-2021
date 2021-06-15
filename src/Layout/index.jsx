@@ -19,7 +19,7 @@ export default function Layout() {
     <div className="container layoutDiv">
       <div className="row headerDiv">
          <div className="row styleOptions">
-        <label> Don't like the colors?</label>
+        <label style={styles.header.h1}> Don't like the colors?&nbsp;</label>
         
         <select
           name="color_option"
