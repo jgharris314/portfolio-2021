@@ -1,9 +1,8 @@
 import portrait from "../img/jhFill.jpg";
-import jhFormal from "../img/jhFormal.jpg"
+
 import './Body.css'
 import React from "react";
-import Slide from "react-reveal/Slide";
-import makeCarousel from "react-reveal/makeCarousel";
+
 
 // import { Link, useParams, useHistory, useRouteMatch } from "react-router-dom";
 // 
