@@ -4,6 +4,7 @@ import './Body.css'
 import React from "react";
 import periodicTables from "../img/periodicTables.png"
 import git from "../img/git.png"
+import LocationViewer  from "../LocationViewer/LocationViewer";
 
 export default function Body({ bodyStyles }) {
   return (
@@ -43,7 +44,9 @@ export default function Body({ bodyStyles }) {
           </div>
       </div> 
       </div>
-      
+      <div className="contentDiv">
+        <LocationViewer />
+      </div>
       <div className="row contentDiv">
       <h3 id="projects" style={bodyStyles ? bodyStyles.h3 : null}>Projects</h3>
       <div className="row content" style={bodyStyles ? bodyStyles.content : null}>
