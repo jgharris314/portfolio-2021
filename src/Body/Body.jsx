@@ -17,7 +17,7 @@ export default function Body({ bodyStyles }) {
           
           
         </div>
-        <div className="col  introCol" style={bodyStyles ? bodyStyles.content : null}>
+        <div className="row  introCol" style={bodyStyles ? bodyStyles.content : null}>
         <p>
                    This is not the greatest site in the world, no. This is just a Tribute
                 </p>
