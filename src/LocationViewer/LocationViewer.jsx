@@ -17,14 +17,11 @@ export default function LocationViewer() {
     const dodgeCityFlyTo = Cartesian3.fromDegrees( -100.0170800, 37.7528000, 6000000)
 
     return (
-        <div>
-        <h3>Places I have lived</h3>
         <Viewer> 
             <Entity position={dodgeCity} point={pointGraphics} name={"Dodge City, KS"} description={"This is where I was born and raised!"}/>
             <Entity position={kansasCity} point={pointGraphics} name={"Kansas City, KS"} description={"The place where I spent a good portion of my early 20's"}/>
             <Entity position={denver} point={pointGraphics} name={"Denver, CO"} description={"Home sweet home!"}/>
             <CameraFlyTo destination={dodgeCityFlyTo} />
         </Viewer>
-        </div>
     )
 }

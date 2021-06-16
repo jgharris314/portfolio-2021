@@ -45,7 +45,11 @@ export default function Body({ bodyStyles }) {
       </div> 
       </div>
       <div className="contentDiv">
+      <h3 style={bodyStyles ? bodyStyles.h3 : null}>Places I have lived</h3>
+        <div className="content">
+        
         <LocationViewer />
+        </div>
       </div>
       <div className="row contentDiv">
       <h3 id="projects" style={bodyStyles ? bodyStyles.h3 : null}>Projects</h3>
