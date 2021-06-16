@@ -23,7 +23,7 @@
 .introCol {
         margin-top: 0px;
         padding-right: 0px;
-        text-align: justify;
+        text-align: center;
         border: solid;
         padding: 2%;
         margin: 5%;
@@ -44,7 +44,7 @@
     margin: 5%;
     border: solid;
     padding: 2%;
-    text-align: left;
+    text-align: center;
     margin-top: 5px;
 }
 
@@ -64,6 +64,11 @@
 .introRow {
     
     justify-content: space-around;
+}
+
+.contact {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 

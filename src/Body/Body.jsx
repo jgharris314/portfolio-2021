@@ -1,5 +1,5 @@
 import portrait from "../img/jhFill.jpg";
-
+import Contact from "../Contact/Contact.jsx"
 import './Body.css'
 import React from "react";
 
@@ -19,13 +19,7 @@ export default function Body({ bodyStyles }) {
         </div>
         <div className="col  introCol" style={bodyStyles ? bodyStyles.content : null}>
         <p>
-                    I'm Jacob, a web developer located in Denver, Colorado!
-                    
-                     Before web development, I was a table-games dealer and supervisor in various casinos throughout KS and CO. The industry was fun and full of fast-paced action, but it just wasn't enough for me, I need something that challenges my mental capacity every day, and keeps me learning. This is why I chose web development. The casino industry has taught me how to work as an effective teammate in a fast-paced setting. 
-                     
-                    When I am not working on code, I like to keep myself busy. There are many things I enjoy doing for "fun," but my biggest passion outside of code has to be kendama. To many, it is just a wooden toy, but for me, it is a form of meditation and relaxation. 
-                   
-                    I also enjoy playing disc golf and getting outside in general.
+                   This is not the greatest site in the world, no. This is just a Tribute
                 </p>
         </div>
       </div>
@@ -63,13 +57,15 @@ export default function Body({ bodyStyles }) {
       <div className="row contentDiv">
       <h3 id="contact" style={bodyStyles ? bodyStyles.h3 : null}>Contact</h3>
       <div className="row content" style={bodyStyles ? bodyStyles.content : null}>
-      <div className="col">
-          <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.."
-          </p>
-          </div>
+        <div className="col ">
+          <p>I am always looking for ways to learn and create! If you would like to collaborate, send me your name, e-mail, and a brief description of how you would like to work with me!</p>
+          <hr/>
+                  </div>
+      <div className="col content contact">
+          <Contact />
       </div>
       </div>
+    </div>
     </div>
   );
 }
