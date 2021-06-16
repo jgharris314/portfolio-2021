@@ -1,4 +1,5 @@
 export const StyleList = [{
+  //style 1
     header: {
       h1: { color: "#baee4c" },
       h2: { color: "#ce91d8" },
@@ -9,7 +10,7 @@ export const StyleList = [{
       background: { "background-color":"#ce91d8", color: "#baee4c" },
       h3: { color: "#210624" },
       content: {
-        "background-color":  "#84428f"
+        "background-color":  "rgba(132,66,143, .87)"
     },
     card: {"background-color": "#210624"}
     },
@@ -18,6 +19,7 @@ export const StyleList = [{
     }
   },
   {
+    //style 2
     header: {
       h1: { color: "#46ddd9" },
       h2: { color: "#e5e5e5" },
@@ -37,38 +39,40 @@ export const StyleList = [{
     }
   },
   {
+    //style 3
     header: {
-      h1: { color: "#04495e" },
-      h2: { color: "#04495e" },
-      h3: { color: "#065535" },
-      background: { "background-color": "#f2578c" },
+      h1: { color: "#fff" },
+      h2: { color: "#bebebe" },
+      h3: { color: "#9e7942" },
+      background: { "background-color": "#000000" },
     },
     body: {
-    background: { "background-color": "#04495e", color: "#065535" },
-    h3: { color: "#f2578c" },
+    background: { "background-color": "#222f5b", color: "#9e7942" },
+    h3: { color: "#bebebe" },
     content: {
-        "background-color":  "#e76aa3"
+        "background-color":  "#0e1a40"
     },
-    card: {"background-color": "#210624"}
+    card: {"background-color": "#000000"}
     },
     navigation: {
-        background: {"background-color": "#f2578c", color: "#baee4c" }
+        background: {"background-color": "#000000", color: "#baee4c" }
     }
   },
   {
+    //style 4
     header: {
-      h1: { color: "purple" },
-      h2: { color: "orange" },
-      h3: { color: "#cc99cc" },
-      background: { "background-color": "#008080" },
+      h1: { color: "#f0f2f4" },
+      h2: { color: "#fcf95a" },
+      h3: { color: "#953640" },
+      background: { "background-color": "#6da6af" },
     },
     body: {
-      background: { "background-color": "purple", color: "green" },
-      h3: { color: "orange" },
+      background: { "background-color": "#f0f2f4", color: "#456b86" },
+      h3: { color: "#953640" },
       content: {
-        "background-color":  "#bada55"
+        "background-color":  "#fcf95a"
     },
-    card: {"background-color": "#bada55"}
+    card: {"background-color": "#f0f2f4"}
     },
     navigation: {
         background: {"background-color":  "#008080", color: "#baee4c" }
