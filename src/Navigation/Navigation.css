@@ -10,3 +10,25 @@
     padding-bottom: 15px;
 }
 
+#home{
+    padding-top: 200px;
+    margin-top: -200px;
+    z-index: 99;
+}
+
+#about {
+    padding-top: 200px;
+    margin-top: -200px;
+    
+}
+
+#projects {
+    padding-top: 200px;
+    margin-top: -200px;
+}
+
+#contact {
+    padding-top: 200px;
+    margin-top: -200px;
+}
+

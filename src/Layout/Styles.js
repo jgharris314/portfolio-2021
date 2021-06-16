@@ -10,7 +10,8 @@ export const StyleList = [{
       h3: { color: "#210624" },
       content: {
         "background-color":  "#84428f"
-    }
+    },
+    card: {"background-color": "#210624"}
     },
     navigation: {
         background: {"background-color": "#210624", color: "#baee4c" }
@@ -28,7 +29,8 @@ export const StyleList = [{
       h3: { color: "#000000" },
       content: {
         "background-color":  "#000000"
-    }
+    },
+    card: {"background-color": "#304456"}
     },
     navigation: {
         background: {"background-color": "#304456", color: "#baee4c" }
@@ -46,7 +48,8 @@ export const StyleList = [{
     h3: { color: "#f2578c" },
     content: {
         "background-color":  "#e76aa3"
-    }
+    },
+    card: {"background-color": "#210624"}
     },
     navigation: {
         background: {"background-color": "#f2578c", color: "#baee4c" }
@@ -64,7 +67,8 @@ export const StyleList = [{
       h3: { color: "orange" },
       content: {
         "background-color":  "#bada55"
-    }
+    },
+    card: {"background-color": "#bada55"}
     },
     navigation: {
         background: {"background-color":  "#008080", color: "#baee4c" }
@@ -84,7 +88,8 @@ export const StyleList = [{
       h3: { color: "#210624" },
       content: {
         "background-color":  "#84428f"
-    }
+    },
+    card: {"background-color": "#210624"}
     },
     navigation: {
         background: {"background-color": "#210624", color: "#baee4c" }

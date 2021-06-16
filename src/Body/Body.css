@@ -1,10 +1,6 @@
 .portraitCol img {
-    height: 300px;
-    width: 200px;
-    /* border-radius: 15%; */
-    /* margin-right: 15px;
-    float: left; */
-   
+   width: 85%;
+   height: 100%;
 }
 
 .portraitCol {
@@ -16,7 +12,7 @@
     min-width: 225px;
     max-height: 380px;
     align-content: center;
-    
+    margin-bottom: 0px;
     
 }
 
@@ -24,10 +20,18 @@
         margin-top: 0px;
         padding-right: 0px;
         text-align: center;
+        justify-content: space-around;
         border: solid;
         padding: 2%;
         margin: 5%;
     max-height: 100px;
+    width: 100%;
+}
+
+.introCol a{
+    
+    color: white;
+    
 }
 
 .Body {
